@@ -1,0 +1,48 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "background.customImages": [
+        "file:///C:/Users/Cupident/Desktop/新员工/333.jfif", "file:///C:/Users/Cupident/Desktop/新员工/333.jfif"
+    ],
+    "background.styles": [
+
+
+        {
+            "content":"''",
+            "pointer-events":"none",
+            "position":"absolute",
+            "width":"100%",
+            "height":"100%",
+            "z-index":"99999",
+            "background.repeat":"no-repeat",
+            "background-size":"100%,70%",
+            "opacity":0.13
+        },
+        {
+            "content":"''",
+            "pointer-events":"none",
+            "position":"absolute",
+            "width":"100%",
+            "height":"100%",
+            "z-index":"99999",
+            "background.repeat":"no-repeat",
+            "background-size":"100%,70%",
+            "opacity":0.13
+        }
+    ],
+    "background.useFront": true,
+    "background.useDefault": false,
+    "background.style": {
+
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "opacity": 1
+    },
+}

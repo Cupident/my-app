@@ -1,0 +1,13 @@
+.active{
+    color: red;
+}
+.head{
+    background-color: black;
+    margin-top: auto;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+.feo{
+    padding: 5px 50px;
+}

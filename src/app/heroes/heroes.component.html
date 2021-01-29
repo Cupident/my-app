@@ -1,0 +1,19 @@
+
+
+<h2 style="color: green;">My Heroes</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes" (click)="onSelect(hero)" [class.selected]="hero === selectedHero">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+</ul>
+ <ol>
+   <li *ngFor="let item of items">
+      {{item}}
+   </li>
+ </ol>
+ <button (click)="run()">click this button</button>
+ <input type="text"  (keydown)="keyDown($event)" />
+ <input type="text" [(ngModel)]='texts'/>
+ <input type="button" value="提交" (click)="submit()"/>
+<app-hero-detail [hero]="selectedHero"></app-hero-detail>
+

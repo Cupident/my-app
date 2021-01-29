@@ -1,0 +1,17 @@
+
+<h2>This is root component</h2>
+<!-- <h1 style="color: pink;">这是{{name}}的{{title}}</h1>
+<app-heroes></app-heroes>
+<app-messages></app-messages> -->
+<!-- <app-forms></app-forms> -->
+<!-- <app-search></app-search> -->
+
+
+<div class="head">
+<h2>
+    <a class="feo" [routerLink]="[ '/forms' ]" routerLinkActive="active">表单</a>
+    <a class="feo" [routerLink]="[ '/search' ]" routerLinkActive="active">搜索</a>
+  
+</h2>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,8 @@
+<div>
+    <input type="text" [(ngModel)]="keyWords"/>   <button (click)="doSearch()">搜索</button>
+<br>
+<hr>
+<ul>
+    <li *ngFor="let item of keyList;let key=index">{{item}}-----<button (click)="deletHistory(key)">x</button></li>
+</ul>
+</div>
